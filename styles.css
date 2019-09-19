@@ -1,5 +1,5 @@
 * {
-    
+    box-sizing: border-box;
 }
 
 ul {
@@ -28,18 +28,17 @@ li a:hover {
 
 .left-container, .right-container {
     border: 15px solid black;
-    float: left;
-    
 }
 
 .left-container {
     margin-right: 20px;
-    width: 27%;
-    
+    width: 33%;
+    float: left;
 }
 
 .right-container {
-    width: 54%;
+    width: 63%;
+    float: right;
 }
 
 .clearfix:after {
