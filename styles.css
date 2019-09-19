@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: Futura, Arial;
+    font-family: Verdana, Arial;
 }
 
 
@@ -49,7 +49,7 @@ li a:hover {
     margin-right: 20px;
     width: 33%;
     float: left;
-    background-color: #d0d0d0
+    background-color: #ffffff
 }
 
 .right-container {
@@ -65,13 +65,15 @@ li a:hover {
 }
 
 .restaurant {
-    font: 15px Helvetica Neue;
+    font: 15px Verdana;
     font-weight: bold;
     color: #0070c9;
+    padding-top: 15px;
     margin-bottom: 0px;
-
+    border-top: 2px solid gray;
 }
 
 .comment {
+    font: 10pt Verdana;
     margin-top: 0px;
 }
