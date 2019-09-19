@@ -26,9 +26,20 @@ li a:hover {
   background-color: #111111;
 }
 
-.container {
+.left-container, .right-container {
     border: 15px solid black;
     float: left;
+    
+}
+
+.left-container {
+    margin-right: 20px;
+    width: 27%;
+    
+}
+
+.right-container {
+    width: 54%;
 }
 
 .clearfix:after {
