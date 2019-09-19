@@ -1,5 +1,14 @@
 * {
     box-sizing: border-box;
+    font-family: Arial;
+}
+
+
+/* HEADER & MENU STYLING*/
+
+.heading {
+    display: block;
+    margin-bottom: 10px
 }
 
 ul {
@@ -26,6 +35,12 @@ li a:hover {
   background-color: #111111;
 }
 
+/* BODY STYLING*/
+.body-container {
+/* Sets height of children to height of largest child*/
+    display: flex;
+}
+
 .left-container, .right-container {
     border: 15px solid black;
 }
@@ -37,7 +52,7 @@ li a:hover {
 }
 
 .right-container {
-    width: 63%;
+    width: 67%;
     float: right;
 }
 
@@ -45,4 +60,14 @@ li a:hover {
     content: "";
     display: table;
     clear: both;
+}
+
+.restaurant {
+    font: 15px Helvetica Neue;
+    font-weight: bold;
+    
+}
+
+.comment {
+    
 }
