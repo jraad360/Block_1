@@ -73,6 +73,10 @@ li a:hover {
     border-top: 2px solid gray;
 }
 
+.restaurant:hover {
+    text-decoration: underline;
+}
+
 .comment {
     font: 10pt Verdana;
     margin-top: 0px;
