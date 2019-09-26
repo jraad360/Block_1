@@ -47,7 +47,8 @@ li a:hover {
 #username {
     padding-left: 20px;
     padding-top: 25px;
-    font-size: 20pt;
+    font-size: 25pt;
+    font-weight: bold;
 }
 
 /* BODY STYLING*/
