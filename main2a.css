@@ -63,6 +63,7 @@ li a:hover {
 }
 
 .left-container {
+    padding: 10px;
     margin-right: 20px;
     width: 33%;
     float: left;
@@ -79,6 +80,7 @@ li a:hover {
 }
 
 .right-container {
+    padding: 10px;
     width: 67%;
     float: right;
     background-color: #d0d0d0
@@ -176,4 +178,27 @@ li a:hover {
     color: #0070c9;
     padding: 0px;
     margin: 0px;
+}
+
+/*PERSONAL INFORMATION*/
+form input {
+    width: 40%;
+    margin: 10px;
+}
+
+.activity-icon {
+    float: left;
+    background: #000000;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    padding: 0px;
+    margin: 20px;
+}
+
+.activity-icon h3 {
+    margin: 0px;
+    margin-top: 20%;
 }
