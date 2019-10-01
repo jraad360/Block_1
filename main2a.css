@@ -182,8 +182,17 @@ li a:hover {
 
 /*PERSONAL INFORMATION*/
 form input {
-    width: 40%;
+    width: 46%;
     margin: 10px;
+    float: left;
+}
+
+form input[name="email"] {
+    width: 95%;
+}
+
+form input[name="birthday"] {
+    width: 95%;
 }
 
 .activity-icon {
