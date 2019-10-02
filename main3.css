@@ -302,7 +302,7 @@ form input[name="birthday"] {
     #title {
         font-size: 15px;
     }
-    #menu {
+    .menu {
         display: none;
     }
     .heading img {
