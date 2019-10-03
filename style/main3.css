@@ -104,6 +104,26 @@ li a:hover {
     border: solid lightgray;
 }
 
+.username-line {
+    display: block;
+    background color: lightgray;
+}
+
+.username-line img {
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+    float: left;
+}
+
+.username-line p {
+    margin: 0px;
+    display: block;
+    float: left;
+}
+
 /* BODY STYLING*/
 body {
     margin: 0px;
@@ -345,5 +365,9 @@ form input[name="birthday"] {
     }
     #personal-information-title {
         display: block;
+    }
+    .username-line {
+        display: none;
+        background color: lightgray;
     }
 }
